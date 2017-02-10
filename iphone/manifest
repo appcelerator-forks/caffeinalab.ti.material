@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: ti.material
+author: Ani Sinanaj
+license: Specify your license
+copyright: Copyright (c) 2017 by Caffeina
+
+# these should not be edited
+name: ti.material
+moduleid: com.caffeina.timaterial
+guid: f3e8eda8-45a1-4eee-955f-beb3286be8b4
+platform: iphone
+minsdk: 6.0.0.GA
