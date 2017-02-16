@@ -76,6 +76,10 @@
 		5586E7C71E4DD50900324B10 /* ComCaffeinaTimaterialDatepickerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586E7C51E4DD50900324B10 /* ComCaffeinaTimaterialDatepickerProxy.m */; };
 		5586E7CB1E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5586E7C91E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.h */; };
 		5586E7CC1E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5586E7CA1E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.m */; };
+		55FE9DA41E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FE9DA21E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.h */; };
+		55FE9DA51E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE9DA31E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.m */; };
+		55FE9DA81E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55FE9DA61E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.h */; };
+		55FE9DA91E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FE9DA71E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.m */; };
 		AA747D9F0F9514B9006C5449 /* ComCaffeinaTimaterial_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComCaffeinaTimaterial_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -146,6 +150,10 @@
 		5586E7C51E4DD50900324B10 /* ComCaffeinaTimaterialDatepickerProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComCaffeinaTimaterialDatepickerProxy.m; sourceTree = "<group>"; };
 		5586E7C91E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComCaffeinaTimaterialTimeProxy.h; sourceTree = "<group>"; };
 		5586E7CA1E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComCaffeinaTimaterialTimeProxy.m; sourceTree = "<group>"; };
+		55FE9DA21E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComCaffeinaTimaterialTabbarViewProxy.h; sourceTree = "<group>"; };
+		55FE9DA31E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComCaffeinaTimaterialTabbarViewProxy.m; sourceTree = "<group>"; };
+		55FE9DA61E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComCaffeinaTimaterialTabbarView.h; sourceTree = "<group>"; };
+		55FE9DA71E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComCaffeinaTimaterialTabbarView.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* ComCaffeinaTimaterial_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComCaffeinaTimaterial_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libcom.caffeina.timaterial.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcom.caffeina.timaterial.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +228,7 @@
 				5586E7C81E4DD55200324B10 /* Time */,
 				5586E64F1E4C808500324B10 /* Toast */,
 				5586E64E1E4C7FB700324B10 /* Calendar */,
+				55FE9DA11E52171600AC88FA /* TabBar */,
 			);
 			name = Views;
 			path = views;
@@ -305,6 +314,18 @@
 			path = time;
 			sourceTree = "<group>";
 		};
+		55FE9DA11E52171600AC88FA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				55FE9DA21E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.h */,
+				55FE9DA31E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.m */,
+				55FE9DA61E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.h */,
+				55FE9DA71E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.m */,
+			);
+			name = TabBar;
+			path = tabbar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -332,10 +353,12 @@
 				5586E78D1E4C8D7B00324B10 /* MDCalendarDateHeader.h in Headers */,
 				5586E7891E4C8D7B00324B10 /* MDBubbleLabel.h in Headers */,
 				5586E79D1E4C8D7B00324B10 /* MDSliderIcon.h in Headers */,
+				55FE9DA41E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.h in Headers */,
 				5586E7A71E4C8D7B00324B10 /* MDTextField.h in Headers */,
 				24DD6CF91134B3F500162E58 /* ComCaffeinaTimaterialModule.h in Headers */,
 				5586E7B01E4C8D7B00324B10 /* UIView+MDExtension.h in Headers */,
 				5586E78B1E4C8D7B00324B10 /* MDCalendar.h in Headers */,
+				55FE9DA81E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.h in Headers */,
 				5586E7A81E4C8D7B00324B10 /* MDTimePickerDialog.h in Headers */,
 				5586E7971E4C8D7B00324B10 /* MDLinearProgressLayer.h in Headers */,
 				5586E7A01E4C8D7B00324B10 /* MDSnackbar.h in Headers */,
@@ -437,7 +460,9 @@
 				5586E7CC1E4DD57800324B10 /* ComCaffeinaTimaterialTimeProxy.m in Sources */,
 				5586E7BB1E4DBDB200324B10 /* ComCaffeinaTimaterialToastProxy.m in Sources */,
 				5586E7C71E4DD50900324B10 /* ComCaffeinaTimaterialDatepickerProxy.m in Sources */,
+				55FE9DA51E52174700AC88FA /* ComCaffeinaTimaterialTabbarViewProxy.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* ComCaffeinaTimaterialModule.m in Sources */,
+				55FE9DA91E52188800AC88FA /* ComCaffeinaTimaterialTabbarView.m in Sources */,
 				24DE9E1211C5FE74003F90F6 /* ComCaffeinaTimaterialModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
